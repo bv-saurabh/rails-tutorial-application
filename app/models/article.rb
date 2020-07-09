@@ -4,6 +4,5 @@ class Article < ApplicationRecord
 
 	def self.create(params)
 		article = Article.new({:title => params[:title], :text => params[:text]})
-		return article
 	end
 end
