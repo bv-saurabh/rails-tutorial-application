@@ -1,24 +1,36 @@
 # README
+TRAINING PROGRAM -- PROJECT 2
+IMPLEMENTING THE BLOG APPLICATION FROM RUBY ON RAILS TUTORIAL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+REQUIREMENTS
 
-Things you may want to cover:
+* Ruby 2.5
 
-* Ruby version
+* Rails 6
 
-* System dependencies
+INSTALL AND MIGRATE DB
 
-* Configuration
+bundle install
+rails db:migrate
 
-* Database creation
+START SERVER
+To start rails server
 
-* Database initialization
+rails server
 
-* How to run the test suite
+Navigate to http://localhost:3000 in the browser to view the home page.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+This project implements the sample blog application from the official ruby on rails tutorial
+available at https://guides.rubyonrails.org/getting_started.html
+
+This project implement a very simple blog application with only two controllers, articles and comments.
+
+The user can see a list of all the articles, display a specific article, create new articles, edit
+the existing articles or delete them.
+
+Users can also comment on the articles. This is accomplished by the comments controllers. It also
+provides all the CRUD operations on comments.
+
+This basic application covers all the basic concepts of Ruby on Rails.
